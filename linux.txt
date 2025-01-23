@@ -1,0 +1,75 @@
+System Information and Management
+- `uname -a` - Display system information.
+- `hostname` - Show the hostname of the system.
+- `whoami` - Show the current logged-in user.
+- `pwd` - Print the current directory.
+- `df -h` - Display disk usage in human-readable format.
+- `free -m` - Show memory usage in MB.
+
+User Management
+- `id` - Show the user ID and group ID.
+- `adduser [username]` - Add a new user.
+- `passwd [username]` - Change a user’s password.
+- `usermod -aG [group] [username]` - Add a user to a group.
+- `who` - Show logged-in users.
+
+Networking Commands
+- `ifconfig` - Display network interfaces (replaced by `ip` in newer systems).
+- `ip addr` - Show IP addresses and interfaces.
+- `ping [host]` - Test network connectivity.
+- `netstat -tuln` - List active connections and listening ports.
+- `nmap [target]` - Scan a target for open ports (requires installation in Kali).
+- `arp -a` - Display ARP table.
+- `wget [url]` - Download files from the web.
+- `curl [url]` - Fetch data from URLs.
+
+👉File and Directory Management👈
+- `ls` - List directory contents.
+- `ls -la` - Detailed listing with hidden files.
+- `cd [directory]` - Change directory.
+- `cp [source] [destination]` - Copy files or directories.
+- `mv [source] [destination]` - Move or rename files.
+- `rm [file]` - Remove files.
+- `rm -r [directory]` - Remove directories and their contents.
+- `cat [file]` - Display file content.
+- `nano [file]` - Open a file in the nano editor.
+- `touch [filename]` - Create an empty file.
+
+Package Management
+- `apt update` - Update package lists.
+- `apt upgrade` - Upgrade installed packages.
+- `apt install [package]` - Install a package.
+- `apt remove [package]` - Remove a package.
+- `apt search [package]` - Search for a package.
+
+File Permissions
+- `chmod [permissions] [file]` - Change file permissions.
+- `chown [owner]:[group] [file]` - Change file ownership.
+- `ls -l` - View file permissions.
+
+Pentesting Tools in Kali Linux
+- `nmap` - Network scanner.
+- `sqlmap` - Automate SQL injection testing.
+- `metasploit` - Exploit development and framework.
+- `aircrack-ng` - Wireless network cracking suite.
+- `hydra` - Brute force password cracking.
+- `john` - John the Ripper for password cracking.
+- `burpsuite` - Web application security testing.
+- `nikto` - Web server vulnerability scanner.
+- `gobuster` - Directory and file brute-forcing.
+
+Process Management
+- `ps aux` - List all running processes.
+- `top` or `htop` - Display active processes and system usage.
+- `kill [PID]` - Kill a process by ID.
+- `killall [process_name]` - Kill all processes by name.
+
+Logging and Monitoring
+- `tail -f [file]` - Follow log files in real time.
+- `dmesg` - View kernel messages.
+- `journalctl` - View systemd logs.
+
+Security Commands
+- `iptables` - Configure firewall rules.
+- `ssh [user]@[host]` - Connect to a remote machine via SSH.
+- `hashcat` - Password recovery tool.
