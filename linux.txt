@@ -73,3 +73,14 @@ Security Commands
 - `iptables` - Configure firewall rules.
 - `ssh [user]@[host]` - Connect to a remote machine via SSH.
 - `hashcat` - Password recovery tool.
+General Linux Concepts
+1️⃣ Explain the Linux boot process.
+2️⃣ How do you manage disk partitions in Linux?
+3️⃣ What are inodes in Linux?
+4️⃣ How do you check system uptime and load average?
+5️⃣ Explain the difference between hard links and soft links.
+6️⃣ What is the purpose of the /etc/fstab file?
+7️⃣ How do you change the hostname of a Linux system?
+8️⃣ What is the difference between cron and anacron?
+9️⃣ How do you troubleshoot file permission issues?
+🔟 What is the difference between df and du commands?
